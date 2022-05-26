@@ -1,0 +1,203 @@
+:root {
+  --text-color: #667085;
+  --main-color: #8E2424;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.links a {
+  color: var(--text-color);
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+button {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  background: none;
+  color: var(--text-color);
+  font-size: 0.9rem;
+}
+
+button#signUp {
+  background-color: var(--main-color);
+  color: #FFF;
+}
+
+/* Cabeçalho - Primeira seção */
+
+.about-us {
+  padding: 7rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem; /* poderia ser margin-bottom pra cada elemento, gap dá um espaçamento entre todos
+  os filhos de uma div com display flex*/
+}
+
+.about-us span {
+  color: var(--main-color);
+}
+
+.about-us h1 {
+  font-size: 2rem;
+}
+
+.about-us p {
+  color: var(--text-color);
+  max-width: 50%;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.metricas-container{
+  display: flex; /* or inline-flex */
+  max-width: 700px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.vagas{
+  display: flex; /* or inline-flex */
+  max-width: 120px;
+  margin: 0 auto;
+  justify-content: space-around;
+  color: #8E2424;
+  background-color: antiquewhite;
+}
+.titulo1{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.titulo2{
+  text-align: center;
+}
+.image{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.borda{
+  display: block; 
+  max-width: 600px;
+  margin: 0 auto;
+}
+.informacoes{
+  display: block;
+  margin: 0 auto;
+  word-spacing: 10px;
+  border-style: double;
+  border-color: #8E2424;
+}
+.borda1{
+  display: block;
+  margin: 0 auto;
+  word-spacing: 10px;
+  border-style: double;
+  border-color: #8E2424;
+}
+.borda2{
+  display: block;
+  margin: 0 auto;
+  word-spacing: 10px; 
+}
+.informacoes1{
+  display: block;
+  margin: 0 auto;
+  word-spacing: 10px;
+  border-style: double;
+  border-color: #8E2424;
+}
+.borda3{
+  display: block;
+  margin: 0 auto;
+  word-spacing: 10px;
+  border-style: double;
+  border-color: #8E2424;
+}
+.borda4{
+  display: block;
+  margin: 0 auto;
+  word-spacing: 10px;
+  border-style: double;
+  border-color: #8E2424;
+}
+.depoimento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80%;
+  margin: 8rem auto;
+  background-color: rgba(195, 25, 25, 0.05);
+  padding: 3rem 2rem;
+}
+.depoimento span {
+  color: var(--main-color);
+  font-weight: 500;
+  text-align: center;
+}
+.depoimento img {
+  width: 48px;
+}
+.depoimento h2 {
+  color: var(--title-color);
+  font-weight: 500;
+  text-align: center;
+  max-width: 70%;
+  margin: 2rem 0;
+}
+.depoimento span.nome {
+  color: var(--title-color);
+  margin: 0.5rem 0;
+  font-weight: 400;
+}
+.depoimento span.cargo {
+  color: var(--text-color);
+  font-weight: 400;
+}
+button {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background: none;
+  color: var(--text-color);
+  font-size: 0.9rem;
+}
+button.signUp {
+  background-color: var(--main-color);
+  color: #FFF;
+}
+.final{
+  display: block; 
+  max-width: 700px;
+  margin: 0 auto;
+  justify-content: space-around;
+  background-color: burlywood;
+}
+.final1{
+  text-align: center;
+}
+.final2{
+  justify-content: space-around;
+}
+
