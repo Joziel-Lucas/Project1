@@ -1,2 +1,2 @@
 # Project1
-Meu primeiro código em html.
+Esse é meu primeiro projeto de layout, usando html e css.
