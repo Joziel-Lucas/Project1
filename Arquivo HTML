@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OptimusTech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="exercicio.css">
+</head>
+<body>
+  <nav>
+    <img src="logo.png"/>
+    <div class="links">
+      <a href="#">Home</a>
+      <a href="#">Produtos</a>
+      <a href="#">Recursos</a>
+      <a href="#">Sobre nós</a>
+    </div>
+    <div class="buttons">
+      <button>Entrar</button>
+      <button id="signUp">Cadastrar</button>
+    </div>
+  </nav>
+  <selection class="about-us">
+  <span>Sobre Nós</span>
+  <h1>Porque Somos Diferentes?</h1>
+  <p>Nos focamos nos detalhes de tudo o que fazemos, 
+    tudo para ajudar as empresas de todo mundo a se concentrarem naquilo que é realmente importante para elas.
+  </p>
+</selection>
+<selection class="metricas-container"> 
+  <div>
+  <img src = "num1.png">
+  <img src = "texto1.png">
+  <p>Nós ajudamos a treinar<br> mais de 400<br> projetos incríveis</p>
+  </div>
+  <div>
+    <img src = "num2.png">
+    <img src = "texto2.png">
+    <p>Temos mais de 100<br> colaboradores
+       no<br> nosso time que se<br> preocupam com<br> nossos clientes.
+     </p>  
+  </div>
+  <div>
+    <img src = "num3.png">
+    <img src = "texto3.png">
+    <P>Nossos projetos<br> que estão<br> disponíveis 
+       em<br> lojas já foram<br> baixados mais de 20.000 vezes.
+    </P>
+  </div>
+  <div>
+    <img src = "num4.png">
+    <img src = "texto4.png">
+    <P>Estamos orgulhosos<br> de contar com<br> mais de 500<br> reviews
+       5 estrelas<br> em nossos produtos.
+    </P>
+  </div>
+</selection>
+<br>
+<br>
+<br>
+<selection class = "vagas">
+<div>
+<h4><b>Vagas Abertas!</b></h4>
+</div>
+</selection>
+<div class = "titulo1">
+<h1>Estamos Procurando Talentos</h1>
+</div>
+<div class = "titulo2">
+<p>Somos uma equipe 100% remota com pessoas do Brasil inteiro</p>
+</div>
+<br>
+<div class = "image">
+<img src = "sala1.png">
+</div>
+<br>
+<br>
+<div class= "borda">
+  <h3>Design</h3>
+  <br>
+  <div class="informacoes">
+    <span style="font-weight: bold"><p>Product Design</p></span>
+    <br>
+    <br>
+    <span><p>Full-Time       Faixa-Salarial: R$ 6.000</p></span>
+  </div>
+  <br>
+  <div class="borda1">
+    <span style="font-weight: bold"><p>UX Design</p></span>
+    <br>
+    <br>
+    <span><p>Full-Time       Faixa-Salarial: R$ 7.000</p></span>
+  </div>
+<br>
+<br>
+<div class= "borda2">
+  <h3>Desenvolvimento de Softwares</h3>
+  <br>
+  <br>
+  <div class="informacoes1">
+    <span style="font-weight: bold"><p>Desenvolvedor(a) IOS</p></span>
+    <br>
+    <br>
+    <span><p>Full-Time       Faixa-Salarial: R$ 8.000</p></span>
+  </div>
+  <br>
+  <br>
+  <div class="borda3">
+    <span style="font-weight: bold"><p>Desenvolvedor(a) Front End</p></span>
+    <br>
+    <br>
+    <span><p>Full-Time       Faixa-Salarial: R$ 7.000</p></span>
+  </div>
+  <br>
+  <br>
+  <div class="borda4">
+    <span style="font-weight: bold"><p>Desenvolvedor(a) Back End</p></span>
+    <br>
+    <br>
+    <span><p>Full-Time       Faixa-Salarial: R$ 8.000</p></span>
+  </div>
+</div>
+<section class="depoimento">
+  <span>Veja o que nossos colaboradores falam sobre nós</span>
+  <h2>OptimusTech se importa com todos seus colaboradores, sempre procurando nos dar todo tipo de auxílio possível.</h2>
+  <img src="avatar.png">
+  <span class="nome">Júlia Castro</span>
+  <span class="cargo">Desenvolvedora Web</span>
+</section>
+<selection>
+  <div class = "final">
+    <div class = "final1">
+  <h2>Acompanhe as nossas oportunidades</h2>
+    </div>
+    <div class = "final1">
+  <span>Seja o primeiro a saber quando novas vagas serão abertas!</span>
+    </div>
+    <div class = "final1">
+  <form>
+    <input type="email" placeholder="Seu e-mail">
+    <button class="signUp">Cadastrar</button>
+  </form>
+</div>
+  <div class = "final1">
+  <span>© 2022 OptimusTech. Todos os direitos reservados.</span>
+</div>
+  </div>
+</selection>
+</body>
+</html>
